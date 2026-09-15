@@ -1,4 +1,6 @@
 numbers = [10, 20, 30, 40, 50]
-
-average = sum(numbers) / len(numbers)
+sum =0
+for num in numbers:
+  sum = sum + num
+average = sum / len(numbers)
 print(average)
